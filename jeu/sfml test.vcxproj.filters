@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Compoasnt">
+      <UniqueIdentifier>{30960582-1383-4d7d-9062-25a920fb44ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IHM">
+      <UniqueIdentifier>{4ab90004-1f2a-47b1-84d1-53e82f3359a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cpp">
+      <UniqueIdentifier>{dca4a96f-3934-4e08-b49c-6fe72fef7d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{774869aa-3904-4f88-8cea-3810d2e67fb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cellule.cpp">
+      <Filter>Source Files\Compoasnt</Filter>
+    </ClCompile>
+    <ClCompile Include="grille.cpp">
+      <Filter>Source Files\Compoasnt</Filter>
+    </ClCompile>
+    <ClCompile Include="JeuDeLavie.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Source Files\IHM</Filter>
+    </ClCompile>
+    <ClCompile Include="configuration.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="grille.h">
+      <Filter>Source Files\Compoasnt</Filter>
+    </ClInclude>
+    <ClInclude Include="cellule.h">
+      <Filter>Source Files\Compoasnt</Filter>
+    </ClInclude>
+    <ClInclude Include="JeuDeLaVie.h">
+      <Filter>Source Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Source Files\IHM</Filter>
+    </ClInclude>
+    <ClInclude Include="configuration.h">
+      <Filter>Source Files\service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+  </ItemGroup>
+</Project>
